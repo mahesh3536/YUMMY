@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <h1 id="primary">Yummy!</h1>
+        </div>
+        <ul>
+           <li class="item"><a href="project.html">Home</a></li>
+           <li class="item"><a href="services.html">Services</a></li>
+           <li class="item"><a href="About_us.html">About us</a></li>
+           <li class="item"><a href="contact.html">Contact us</a></li>
+           
+        </ul>
+    </nav>
+    <div id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="/myaction.php" name="form1" onsubmit="return validateForm()" method="post">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="fname" id="name" placeholder="Enter your name"><b><span class="formerror"></span></b>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"><b><span class="formerror"></span></b>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="tel" name="fphone" id="phone" placeholder="Enter your phone"><b><span class="formerror"></span></b>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea><b><span class="formerror"></span></b>
+                </div>
+                <div  class="form-group">
+                <input type="submit" name="submit" ></div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com. All rights reserved!
+        </div>
+    </footer>
+    <script src="contact.js">
+        
+    </script>
+    
+</body>
+</html>

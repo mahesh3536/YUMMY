@@ -1,0 +1,239 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color:rgb(75, 73, 73);
+    height: 80px;
+    /* position:fixed; */
+}
+#navbar::before{
+    
+    background-color:rgb(75, 73, 73);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+    
+}
+#navbar ul li a{
+    display:block;
+    padding:20px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+#navbar ul li a:hover{
+    
+    color:black;
+    background-color: white;
+}
+#primary{
+    font-family: 'Bree Serif', serif;
+    padding-left: 6px;
+    font-size: 35px;
+    color: white;
+}
+.div1{
+    padding-top: 30px;
+    background-color: rgb(200, 218, 173);
+    height: 100px;
+}
+#ul1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 40%;
+    margin: auto;
+    align-items: center;
+}
+.li1{
+    margin-left: 20px;
+    margin-right: 40px;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+.li1:hover{
+    background-color: rgba(255,165,0,0.6);
+    border-color: orange;
+}
+li{
+    list-style: none;
+}
+#btn1{
+    background-color: #FFC222;
+}
+#div2{
+    margin-top: 44px;
+    align-content: center;
+    margin-right: 300px;
+    margin-bottom: 44px;
+}
+.flex{
+    display: flex;
+}
+.box{
+    background-color:#FFC222;
+    margin-right: 37px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    width: 550px;
+}
+.box2{
+   margin: auto;
+   /* background-color: #0000ff; */
+}
+.primary_h3{
+    font-size: 26px;
+}
+.size_p{
+    font-weight: 500;
+}
+.box3{
+    margin-left: 187px;
+}
+#cont2{
+    display: none;
+}
+#cont3{
+    display: none;
+}
+#cont4{
+    display: none;
+}
+#burger{
+    position: relative;
+    left: -1%;
+    background-size: contain;
+    width: 50%;
+    height: 600px;
+    background-image:url('burger4.jpg');
+    /* background-color: black; */
+    background-size:cover;
+    
+   
+    background-repeat: no-repeat;
+}
+#burger1{
+    background-image: url('burger1.jpg');
+    height: 1000px;
+    width: 100%;
+}
+#para1{
+    font-weight: 1000;
+    font-size: 55px;
+    color: white;
+    margin-bottom: 0px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+#para2{
+    font-weight: 500;
+    margin-top: 3px;
+    color: white;
+    padding-left: 104px;
+    padding-top:none;
+    font-size: 25px;
+}
+#btn5{
+    font-weight: 700;
+    margin-left: 270px;
+    padding-left: 38px;
+    padding-top: 13px;
+    padding-right: 38px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgb(255, 168, 6);
+}
+.class1{
+    filter: brightness(100%);
+}
+#btn5:hover{
+    color:white;
+}
+#div5{
+    background-image: url('explore3.jpg');
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+#explore{
+    background-image: url('explore4.png');
+    width: 50%;
+    height: 600px;
+    background-size: contain;
+}
+.bg{
+    background-image: url('background.jpg');
+}
+.flex1{
+    display: flex;
+    background-image: url('background.jpg');
+    height: 250px;
+    padding-top: 20px;
+    color: white;
+    margin-top: 40px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.font{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 4.8rem;
+    font-family: 'Bree Serif', serif;
+}
+.div6{
+    margin-left: 55px;
+}
+input {
+    line-height: 40px;
+    color: white;
+    background-color: black;
+    border-color: rgba(255,255,255,0.3);
+    font-weight: 600;
+    font-size: 15px;
+    width: 220px;
+    margin-left: 50px;
+    outline: none;
+}
+input[type="email"]:focus{
+    border-color: rgba(255,255,255,0.3);
+}
+.btn6{
+    height: 45px;
+    width: 118px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: orange;
+}
+.btn6:hover{
+    color: white;
+}
+.colour{
+    color: orange;
+}
+.opacity{
+    color: rgba(255,255,255,0.7);
+    
+}
+footer{
+    background:green;
+    color: white;
+    height: 60px;
+    padding-top: 26px;
+    padding-left: 55px;
+}

@@ -1,0 +1,168 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+       <center><h1>SAVING BANK ACCOUNT OPENING FORM</h1></center>
+       <center><h2>(for BASIC/SMALL SB Ac)</h2></center>
+    </body>
+    <hr>
+    <form action="input.php">
+        <table width="100%">
+        <td style="width:60%"><fieldset >
+            <legend>For Bank use only</legend>
+            Name & code of the branch<br>
+            <label for="customerid">Cust ID</label>
+            <input type="text" id="customerid" name="customerid" size="50">
+            <br>
+            <br>
+            <label for="accountno">A/C No.</label>
+            <input type="text" id="accountno" name="accountno" size="49">
+        </fieldset></td>
+        <td align="right">
+        
+        <label for="date">DATE</label><input type="date" id="date" name="date">
+        <br>
+        <label for="time">TIME</label><input type="time" id="time" name="time"></td></table>
+        <br>
+        <fieldset>
+            <legend>
+                <b>Personal Details</b>
+            </legend>
+            <table border="2" width="100%">
+                <tr>
+                    <td>1</td>
+                    <td>Name in Full(Mr./Ms)</td>
+                    <td colspan =3><input type="text" id="name" name="full name"></td>
+                    <td rowspan="4">Image</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Father/Husband/Gaurdian name</td>
+                    <td colspan =3><input type="text" id="name" name="gname"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender" value="male" checked>Male <input type="radio" name="gender" value="female">Female</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Occuption</td>
+                    <td><input type="text" name="occuption"></td>
+                    <td>Category</td>
+                    <td><select name="category" id="category" style="width:125px;">
+                        <option value="select">select</option>
+                        <option value="general">General</option>
+                        <option value="ews" >Ews</option></td>
+                </tr>
+                <tr>
+<td>5</td>
+<td>Marital Status</td>
+<td colspan=2><input type="radio" name="status" value="married" checked>Married <input type="radio" name="status" value="unmarried">Unmarried<input type="radio" name="status" value="Widowed">Widowed</td>
+<td style="text-align:right;">Signature</td>
+<td></td>
+               </tr>
+            </table>
+        
+        </fieldset>
+        <br>
+<fieldset>
+<legend>
+<b>Contact Details</b>
+</legend>
+<table border="2" width="100%">
+<tr>
+<td>Mobile No.<br>(1)</td>
+<td><input type="number"  style="width:125px;"></td>
+<td>Moblie No.<br>(2)</td>
+<td><input type="number"  style="width:125px;"></td>
+<td>Telephone/<br>landline</td>
+<td><input type="number"  style="width:125px;"></td>
+</tr>
+<tr>
+<td>Personal <br>Email</td>
+<td colspan=2><input type="Email" name="personal_email"  size="40"></td>
+<td>Professional <br>Email</td>
+<td colspan=2><input type="Email" name="personal_email"  size="40"></td>
+</tr>
+<tr>
+<td rowspan="2">Current <br>address</td>
+<td rowspan="2"><textarea></textarea></td>
+<td>Village/<br>City</td>
+<td><input type="text" name="city"  size="40"></td>
+<td>District</td>
+<td><input type="text" name="district"  size="40"></td>
+</tr>
+<tr>
+<td>State</td>
+<td><select name="state" id="state">
+<option value="select">select</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="ews" >Rajastahn</option></td>
+<td>Pin code</td>
+<td><input type="text" name="pcode"  size="40"></td>
+</tr></table>
+<br>
+<table border="2" width="100%">
+<tr>
+<td rowspan=2>Permanent <br>Address</td>
+<td rowspan=2><textarea></textarea></td>
+<td>Village/<br>City</td>
+<td><input type="text" name="city"  size="40"></td>
+<td>District</td>
+<td><input type="text" name="district"  size="40"></td>
+</tr>
+<tr>
+<td>State</td>
+<td><select name="state" id="state">
+<option value="select">select</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="ews" >Rajastahn</option></td>
+<td>Pin code</td>
+<td><input type="text" name="pcode"  size="40"></td>
+</tr>
+</table>
+</fieldset>
+<br>
+        <fieldset>
+            <legend>
+                <b>DOCUMENTS</b>
+                
+            </legend>
+            <table border="3" WIDTH="100%">
+                <tr>
+                    <td>Adhar <br>card</td>
+                    <td><input type="text" value="Adhar Number" name="adharno"  size="49"></td>
+                    <td><input type="file" value="choose file"></td>
+                    <td>PAN <br>CARD</td>
+                    <td><input type="file" value="choose file"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Electricity <br>Bill</td>
+                    <td colspan="2"><input type="file" id="adharno" name="electricity bill"></td>
+                    
+                    <td>Gas
+                        <br>Bill
+                    </td>
+                    <td><input type="file" value="choose file"></td>
+                </tr>
+                <tr></tr>
+            </table>
+            
+        </fieldset>
+        <hr>
+        <div>Please open a Saving bank account in the name of Mr./Ms.<input type=text style="border:none; border-bottom:1px solid grey;">.</div>
+<p>The Saving Bank rules and regulation those relating to Small Account have been explained to me and I agreee to abide by the same.An additional photograph is attached.</p>
+<table width="100%">
+<tr>
+<td>Date</td>
+<td><input type="date"  name="date"  size="49"></td>
+<td>Place</td>
+<td><input type="text"  name="place"  size="49"></td>
+<td>Signature</td>
+
+</tr>
+</table>
+    </form>
+</html>
