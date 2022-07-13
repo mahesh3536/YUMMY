@@ -235,5 +235,9 @@ footer{
     color: white;
     height: 60px;
     padding-top: 26px;
-    padding-left: 55px;
+    padding-left: 150px;
+    font-weight: 600;
+}
+.icon:hover{
+       color: #FFC222;
 }
